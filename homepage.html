@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Nav - Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav">
+            
+            <div class="logo-header">
+                <h1>BookStore</h1>
+            </div>
+            
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="">About</a></li>
+            <li><a href="">Books</a></li>
+            <li><a href="">Social</a></li>
+        </ul><br><br>
+
+    <section class="search-book">
+        <input type="text" id="search-bar" placeholder="Search for a book">
+        <button onclick="searchBook()">Search</button>
+        <button onclick="clearSearchHighlights()">Clear Search</button>
+    </section>
+
+    <section class="favorite">
+
+    </section>
+
+    <section class="book-addition">
+        <h4>Books</h4>
+        <ul id="book-list">
+            <li>"Berserk" by  Miura</li>
+            <li>"Dark Soul" by TaehKaroiko Inoue</li>
+            <li>"Vagabond" by Kentaro Inoue</li>
+            <li>"The Phantoms" by Rukirahara Ken</li>
+        </ul>
+        <button onclick="addBook()">Add</button>
+        <button onclick="removeBook()">Remove Last Book</button>
+    </section><br><br>
+
+
+    <script src="dom.js"></script>
+</body>
+</html>

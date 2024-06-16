@@ -23,7 +23,7 @@ function searchBook() {
         let itemText = bookListItems[i].textContent.toLowerCase();
         
         if (itemText.includes(searchTerm)) {
-            bookListItems[i].style.backgroundColor = '#05c9d4';
+            bookListItems[i].style.backgroundColor = 'silver';
         }
     }
 }

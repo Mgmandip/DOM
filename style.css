@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -14,16 +13,14 @@ body {
 }
 
 .navbar {
-    width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #ffffff;
     box-shadow: 0 4px 6px rgba(25, 25, 25, 0.1);
 }
 
-.top-row {
+.nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 20px;
 }
 
@@ -41,25 +38,10 @@ body {
     transition: color 0.3s;
 }
 
-.social-icon:hover {
-    color: #05c9d4;
-}
 
-.logo-header {
-    display: flex;
-    align-items: center;
-    margin-left: 80px;
-}
-
-.logo {
-    margin-right: 10px;
-    height: 50px; 
-}
-
-.logo-header h4 {
+h1{
     font-size: 24px;
     font-weight: 700;
-    color: #05c9d4;
 }
 
 .search-container {
@@ -78,7 +60,7 @@ body {
 }
 
 .search-container input:focus {
-    border-color: #05c9d4;
+    border-color: black;
 }
 
 .search-container button {
@@ -94,7 +76,7 @@ body {
 }
 
 .search-container button:hover {
-    background-color: #05c9d4;
+    background-color: black;
 }
 
 .nav-links {
@@ -120,7 +102,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #05c9d4;
+    color: black;
 }
 
 /* Responsive Styles */
@@ -169,7 +151,7 @@ body {
 }
 
 .favorite {
-    background-color: rgb(85, 154, 170);
+    background-color: rgb(87, 90, 91);
 }
 
 .book-addition {
@@ -208,19 +190,19 @@ body {
 .book-addition button {
     padding: 10px 20px;
     font-size: 14px;
-    background-color: #05c9d4;
+    background-color: black;
     border: none;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 10px;
-    width: 150px;
+    width: 200px;
     font-family: "Poppins", sans-serif;
 }
 
 .book-addition button:hover {
-    background-color: #039aae;
+    background-color: black;
 }
 
 .search-book,
@@ -247,7 +229,7 @@ body {
 .remove-book button {
     padding: 10px 20px;
     font-size: 15px;
-    background-color: #05c9d4;
+    background-color: black;
     border: none;
     color: #fff;
     margin-top: -30px;
@@ -265,7 +247,7 @@ body {
 
 .search-book button:hover,
 .remove-book button:hover {
-    background-color: #039aae;
+    background-color: black;
 }
 
 #book-list li.favorite {
